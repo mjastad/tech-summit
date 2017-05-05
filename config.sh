@@ -6,6 +6,11 @@ ISO_CONAINER_NAME="ISO"
 NGT_IMAGE_NAME="Virt-IO"
 OS_IMAGE_NAME="Windows"
 
+#task status
+RUNNING="Running"
+QUEUED="Queued"
+SUCCEEDED="Succeeded"
+
 #content-type
 CT="Content-Type:application/json"
 ACCEPT="Accept: application/json"
@@ -28,6 +33,7 @@ RESOURCE_VM_PWR_STATE="/set_power_state/"
 RESOURCE_VM="/vms/"
 RESOURCE_SC="/storage_containers/"
 RESOURCE_IM="/images/"
+RESOURCE_TK="/tasks/"
 
 #keys
 KEY_METADATA="metadata"
@@ -45,4 +51,7 @@ KEY_MEMORY="memory_mb"
 KEY_NUM_VCPU_CORES="num_cores_per_vcpu"
 KEY_NUM_VCPUS="num_vcpus"
 KEY_POWER_STATE="power_state"
+KEY_TASK_STATUS="progress_status"
+KEY_TASK_UUID="task_uuid"
+
 

@@ -15,6 +15,34 @@ quiesce() {
 }
 
 ##########################################################################################
+# Function: taskStatus 
+# Description: temporarily blocks while checking task status.  When the task status 
+#              reaches the condition set by param($2), the function unblocks, and resumes 
+#              processing. 
+#
+# Inputs: param($1): task id json 
+#         param($2): status to check for 
+#
+# Return: Task status (succeeded, failed) detected by system
+##########################################################################################
+taskStatus() {
+ 
+   TASK_ID=$(echo $1 | jq -r ".${KEY_TASK_UUID}")  
+
+   JSON=$(getResource $RESOURCE_TK$TASK_ID)
+   TASK_STATUS=$(echo $JSON | jq -r ".${KEY_TASK_STATUS}")
+
+   while [ $TASK_STATUS ==  $2 ]; do
+       JSON=$(getResource $RESOURCE_TK$TASK_ID)
+       TASK_STATUS=$(echo $JSON | jq -r ".${KEY_TASK_STATUS}")
+       sleep 1
+   done
+
+   echo $TASK_STATUS
+         
+}
+
+##########################################################################################
 # Function: getResourceEntityProperty
 # Description: Calls function::getResource{$1} and determines the number entities/resurce.  
 #              Iterates through the entity[] array for the number of entities while 

@@ -5,13 +5,13 @@ source functions.sh
 #main
 ARRAY=()
 
-#1 retrieve name-instance value(s) from /storage-container/ resource 
+#1 retrieve+display name-instance value(s) from /storage-container/ resource 
 echo "display the name(s) of /storage-container/ resource instances"
 ARRAY=$(getResourceValues $RESOURCE_SC $KEY_NAME)
 echo "resource:${RESOURCE_SC} key:${KEY_NAME} value(s):${ARRAY[@]}"
 echo
 
-#2 retrieve name-instance value(s) from /images/ resource 
+#2 retrieve+display name-instance value(s) from /images/ resource 
 echo "display the name(s) of /image/ resource instances"
 ARRAY=$(getResourceValues $RESOURCE_IM $KEY_NAME)
 echo "resource:${RESOURCE_IM} key:${KEY_NAME} value(s):${ARRAY[@]}"
@@ -44,10 +44,8 @@ echo
 #7 create vm
 echo "create the vm"
 RESPONSE=$(createResource $RESOURCE_VM GEN_VM_CREATE_MSG $WIN_VMDISK_UUID $DEFAULT_SC_UUID $NGT_VMDISK_UUID 10737418240)
-echo "response: ${RESPONSE}"
+echo "create(vm): $(taskStatus ${RESPONSE} ${RUNNING})"
 echo
-
-quiesce 15
 
 #8 retrieve vm uuid single resource-instance value
 echo "retrieve the vm uuid"
@@ -58,24 +56,19 @@ echo
 #9 set power-state "on" 
 echo "power the vm on"
 RESPONSE=$(setPowerState $RESOURCE_VM GEN_VM_POWER_MSG $VM_UUID "ON")
-echo "response: ${RESPONSE}"
+echo "powerOn(vm): $(taskStatus ${RESPONSE} ${RUNNING})"
 echo
-
-quiesce 15
 
 #10 set power-state "off" 
 echo "power the vm off"
 RESPONSE=$(setPowerState $RESOURCE_VM GEN_VM_POWER_MSG $VM_UUID "OFF")
-echo "response: ${RESPONSE}"
+echo "powerOff(vm): $(taskStatus ${RESPONSE} ${RUNNING})"
 echo
-
-quiesce 15
 
 #11 delete resource
 echo "delete the vm"
 RESPONSE=$(deleteResource $RESOURCE_VM $VM_UUID)
-echo "response: ${RESPONSE}"
-echo
+echo "delete(vm): $(taskStatus ${RESPONSE} ${RUNNING})"
 
 #uncomment the following to display formatted json using jq
 #RESULT=$(getResource $RESOURCE_IM)
