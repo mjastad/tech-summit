@@ -1,4 +1,4 @@
-# tech-summit
+# Tech Summit - 2017 (Bash Solution)
 %% readme.txt
 %% ntnx bash-scripts(version 1.0.1 Beta 0514.01)
 
