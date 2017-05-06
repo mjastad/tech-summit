@@ -4,7 +4,7 @@
 
 Name:-         NTNX Bash REST Tool-Kit (NTNX-BaRT) (Bash v3.2, OSX 10.12.4)
 Authors:-      M. Jastad (michael.jastad@nutanix.com) 
-               R. Allen  (reggie@nutanix.com) 
+
 Date:-         Apr 19, 2017
 
 (1) DEFECTS/FEATURES 
