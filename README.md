@@ -38,7 +38,7 @@ BaRT is designed for Tech Summit 2017 as a guide for particiapnts to stand-up VM
 - jq 1.5
 
 
-(5)INSTALL JQ
+(5)INSTALL JQ (OSX)
 ---------------------
 1. Open a terminal window and run the following command:
 * _ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null_
