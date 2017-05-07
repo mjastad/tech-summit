@@ -10,11 +10,11 @@
 (1) DEFECTS/FEATURES 
 --------------------------
 + BETA-0408.01
-- Defects: added authentication to "config.sh".
-- Defects: added ipaddress/port to "config.sh".  
+-- Defects: added authentication to "config.sh".
+-- Defects: added ipaddress/port to "config.sh".  
 
 + BETA-0414.01  
-- Feature: Separated files into "config.sh", "functions.sh", and "main.sh" for easy management. 
+-- Feature: Separated files into "config.sh", "functions.sh", and "main.sh" for easy management. 
 
 
 (2) INTRODUCTION
