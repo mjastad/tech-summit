@@ -41,11 +41,11 @@ BaRT is designed for Tech Summit 2017 as a guide for particiapnts to stand-up VM
 (5)INSTALL JQ
 ---------------------
 1. Open a terminal window and run the following command:
-- ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+* _ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null_
 
 2. Wait for the command to finish.
 3. When complete, Run:
-%> brew install jq
+**_brew install jq_**
 
 4. Done! You can now use jq.
 
