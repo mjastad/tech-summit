@@ -34,8 +34,8 @@ BaRT is designed for Tech Summit 2017 as a guide for particiapnts to stand-up VM
 
 (4) REQUIRED SOFTWARE
 -----------------------
--Bash v3.2 (interpreters are available for windows, see https://www.cygwin.com/)
--jq 1.5
+- Bash v3.2 (interpreters are available for windows, see https://www.cygwin.com/)
+- jq 1.5
 
 
 (5)INSTALL JQ
@@ -45,7 +45,7 @@ BaRT is designed for Tech Summit 2017 as a guide for particiapnts to stand-up VM
 
 2. Wait for the command to finish.
 3. When complete, Run:
-- brew install jq
+    %> brew install jq
 
 4. Done! You can now use jq.
 
