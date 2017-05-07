@@ -2,18 +2,18 @@
 %% readme.txt
 %% ntnx bash-scripts(version 1.0.1 Beta 0514.01)
 
-Name:-         NTNX Bash REST Tool-Kit (NTNX-BaRT) (Bash v3.2, OSX 10.12.4)
-Authors:-      M. Jastad (michael.jastad@nutanix.com) 
+- Name:         NTNX Bash REST Tool-Kit (NTNX-BaRT) (Bash v3.2, OSX 10.12.4)
+- Authors:      M. Jastad (michael.jastad@nutanix.com) 
 
-Date:-         Apr 19, 2017
+- Date:         Apr 19, 2017
 
 (1) DEFECTS/FEATURES 
 --------------------------
-BETA-0408.01
++ BETA-0408.01
 - Defects: added authentication to "config.sh".
 - Defects: added ipaddress/port to "config.sh".  
 
-BETA-0414.01  
++ BETA-0414.01  
 - Feature: Separated files into "config.sh", "functions.sh", and "main.sh" for easy management. 
 
 
@@ -54,17 +54,16 @@ BaRT is designed for Tech Summit 2017 as a guide for particiapnts to stand-up VM
 ------------------
 The following files are included in the BaRT package.
 
-config.sh             % Bash & REST runtime paramters (Access parameters)
-functions.sh          % Bash reusable functions for REST implementations and invocation.  
-main.sh               % BaRT main driver 
-README                % this file
+- config.sh             -- Bash & REST runtime paramters (Access parameters)
+- functions.sh          -- Bash reusable functions for REST implementations and invocation.  
+- main.sh               -- BaRT main driver 
+- README                -- this file
 
 
 (7) INSTALLATION (Linux, Mac)
 --------------------------------
-file: ts-bash.osx-10.12.4.tar 
-
-“file” is shell extracted using tar or RAR utilities. No checks for dependencies during install (extraction).
+- file: ts-bash.osx-10.12.4.tar 
+- file: shell extracted using tar or RAR utilities. No checks for dependencies during install (extraction).
 
 Install steps:
 1. Copy file to filesystem folder -  run “tar -xvf bash-script.osx-10.12.4.tar”.
@@ -87,7 +86,7 @@ Configure (config.sh):
 --------------------------
 The following describes the directory structure for BaRT installation.
 
-/bash-scripts	        % Executables and configuration files used to control execution.
+- /bash-scripts	        % Executables and configuration files used to control execution.
 
 (10) LICENSE (LPPL):
 -----------------------
