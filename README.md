@@ -9,12 +9,12 @@
 
 (1) DEFECTS/FEATURES 
 --------------------------
-+ BETA-0408.01
--- Defects: added authentication to "config.sh".
--- Defects: added ipaddress/port to "config.sh".  
+BETA-0408.01
+- Defects: added authentication to "config.sh".
+- Defects: added ipaddress/port to "config.sh".  
 
-+ BETA-0414.01  
--- Feature: Separated files into "config.sh", "functions.sh", and "main.sh" for easy management. 
+BETA-0414.01  
+- Feature: Separated files into "config.sh", "functions.sh", and "main.sh" for easy management. 
 
 
 (2) INTRODUCTION
@@ -41,11 +41,11 @@ BaRT is designed for Tech Summit 2017 as a guide for particiapnts to stand-up VM
 (5)INSTALL JQ
 ---------------------
 1.) Open a terminal window and run the following command:
-      ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+- ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
 
 2.) Wait for the command to finish.
 3.) When complete, Run:
-      brew install jq
+- brew install jq
 
 4.) Done! You can now use jq.
 
@@ -66,7 +66,7 @@ The following files are included in the BaRT package.
 - file: shell extracted using tar or RAR utilities. No checks for dependencies during install (extraction).
 
 Install steps:
-1. Copy file to filesystem folder -  run “tar -xvf bash-script.osx-10.12.4.tar”.
+1. Copy file to filesystem folder -- run “tar -xvf bash-script.osx-10.12.4.tar”.
 2. Extraction will place files in "bash-scripts" folder.
 3. Edit config.h with appropriate ipaddress and port information for connection to the REST endpoint.
  
