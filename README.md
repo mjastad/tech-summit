@@ -60,16 +60,16 @@ The following files are included in the BaRT package.
 
 (7) INSTALLATION (Linux, Mac)
 --------------------------------
-File:
+**File:**
 - file: ts-bash.osx-10.12.4.tar 
 - file: shell extracted using tar or RAR utilities. No checks for dependencies during install (extraction).
 
-Install steps:
+**Install steps:**
 1. Copy file to filesystem folder -- run: **_tar -xvf bash-script.osx-10.12.4.tar_**.
 2. Extraction will place files in "bash-scripts" folder.
 3. Edit config.h with appropriate ipaddress and port information for connection to the REST endpoint.
 
-Execution(OS X):
+**Execution(OS X):**
 1. Insure that *_main.sh_* is executable by running:  **_chmod +x main.sh_**
 2. From commandline, run: **_./main.sh_** 
 
