@@ -72,7 +72,7 @@ Install steps:
 3. Edit config.h with appropriate ipaddress and port information for connection to the REST endpoint.
 
 Execution(OS X):
-1. Insure that _main.sh_ is executable by running:  chmod +x main.sh
+1. Insure that *_main.sh_* is executable by running:  *_chmod +x main.sh_*
 
 (8) USAGE/CONFIGURATION 
 -----------------------------
