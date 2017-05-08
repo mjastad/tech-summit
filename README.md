@@ -21,7 +21,7 @@ BETA-0414.01
 -----------------
 BaRT is an open-source `VM Management’ resource enabling users to manage NTNX VM elements through RESTful control (allows the flexible use of REST API commands, relative addressing, macros, libraries, and bash programs).
 
-BaRT is a bash-shell program which runs from shell command line and can be integrated with 3rd party scripts or runctimes directly.
+BaRT is a bash-shell program which runs from shell command line and can be integrated with 3rd party scripts or runtimes directly.
 
 BaRT will run on most platform(s) having a working Bash v3.2 installation or higher. However, there may of course be minor differences across various linux distributions.
 
