@@ -44,9 +44,7 @@ BaRT is designed for Tech Summit 2017 as a guide for particiapnts to stand-up VM
 * _ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null_
 
 2. Wait for the command to finish.
-3. When complete, Run:
-**_brew install jq_**
-
+3. When complete, Run: **_brew install jq_**
 4. Done! You can now use jq.
 
 
@@ -72,7 +70,7 @@ Install steps:
 3. Edit config.h with appropriate ipaddress and port information for connection to the REST endpoint.
 
 Execution(OS X):
-1. Insure that *_main.sh_* is executable by running:  *_chmod +x main.sh_*
+1. Insure that *_main.sh_* is executable by running:  **_chmod +x main.sh_**
 
 (8) USAGE/CONFIGURATION 
 -----------------------------
