@@ -2,10 +2,10 @@
 %% readme.txt
 %% ntnx bash-scripts(version 1.0.1 Beta 0514.01)
 
-- Name:         NTNX Bash REST Tool-Kit (NTNX-BaRT) (Bash v3.2, OSX 10.12.4)
-- Authors:      M. Jastad (michael.jastad@nutanix.com), Reggie Allen (reggie@nutanux.com)
+- **Name:**         NTNX Bash REST Tool-Kit (NTNX-BaRT) (Bash v3.2, OSX 10.12.4)
+- **Authors:**      M. Jastad (michael.jastad@nutanix.com), Reggie Allen (reggie@nutanux.com)
 
-- Date:         Apr 19, 2017
+- **Date:**         Apr 19, 2017
 
 (1) DEFECTS/FEATURES 
 --------------------------
