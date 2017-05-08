@@ -65,7 +65,7 @@ File:
 - file: shell extracted using tar or RAR utilities. No checks for dependencies during install (extraction).
 
 Install steps:
-1. Copy file to filesystem folder -- run “tar -xvf bash-script.osx-10.12.4.tar”.
+1. Copy file to filesystem folder -- run: **_tar -xvf bash-script.osx-10.12.4.tar_**.
 2. Extraction will place files in "bash-scripts" folder.
 3. Edit config.h with appropriate ipaddress and port information for connection to the REST endpoint.
 
