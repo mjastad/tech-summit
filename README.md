@@ -77,12 +77,12 @@ Execution(OS X):
 -----------------------------
 Configure (config.sh):
 
-1. Set Host information (IPADDR and PORT) 
-2. Set User credentials (USER, PASSWD)
-3. Set ISO_CONTAINER_NAME variable with the container name containing the iso images
-4. Set the DISK_CONTAINER_NAME variable with the default container used by VM for disk space...
-5. Set the OS_IMG_NAME variable with the name of the image to construct the target VM 
-6. Set the NGT_IMG_NAME variable with the name of the Nutanix Gust Tools image needed by the target VM 
+1. Set Host information (_IPADDR_ and _PORT_) 
+2. Set User credentials (_USER_, _PASSWD_)
+3. Set _ISO_CONTAINER_NAME_ variable with the container name containing the iso images
+4. Set the _DISK_CONTAINER_NAME_ variable with the default container used by VM for disk space...
+5. Set the _OS_IMG_NAME_ variable with the name of the image to construct the target VM 
+6. Set the _NGT_IMG_NAME_ variable with the name of the Nutanix Gust Tools image needed by the target VM 
 
 (9) DIRECTORY STRUCTURE 
 --------------------------
