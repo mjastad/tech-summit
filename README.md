@@ -25,7 +25,7 @@ BaRT is a bash-shell program which runs from shell command line and can be integ
 
 BaRT will run on most platform(s) having a working Bash v3.2 installation or higher. However, there may of course be minor differences across various linux distributions.
 
-BaRT has been tested using Mac OSX, 10.12.4 and BSD/Linux which the author(s) are familiar with. Feedback regarding installation and usage on other platforms will be greatly appreciated, and included in future distributions.
+BaRT has been tested using Mac OSX, 10.12.4 and BSD/Linux which the author(s) are familiar with. Feedback regarding installation and usage on other distributions would be greatly appreciated, followed by future updates (as needed).
 
 
 (3) HISTORY
