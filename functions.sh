@@ -98,7 +98,8 @@ getResource() {
 # return: $VALUE representing a value for a spcified key given a resource name
 ##########################################################################################
 getResourceValue() {
-  VALUE=$(curl --insecure -s -H $CT -X GET -u $USER:$PASSWD "$SERVICE_URL$1" | jq -r $2)
+  JSON=$(getResource $1)
+  VALUE=$(echo $JSON | jq -r $2)
   echo $VALUE
 }
 
