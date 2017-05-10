@@ -2,7 +2,7 @@
 
 #image and container instance-name settings
 DISK_CONTAINER_NAME="default-container"
-ISO_CONAINER_NAME="ISO"
+ISO_CONTAINER_NAME="ISO"
 NGT_IMAGE_NAME="Virt-IO"
 OS_IMAGE_NAME="Windows"
 
