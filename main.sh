@@ -65,7 +65,7 @@ RESPONSE=$(setPowerState $RESOURCE_VM GEN_VM_POWER_MSG $VM_UUID "OFF")
 echo "powerOff(vm): $(taskStatus ${RESPONSE} ${RUNNING})"
 echo
 
-#11 delete resource
+#11 delete VM resource
 echo "delete the vm"
 RESPONSE=$(deleteResource $RESOURCE_VM $VM_UUID)
 echo "delete(vm): $(taskStatus ${RESPONSE} ${RUNNING})"
